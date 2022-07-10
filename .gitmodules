@@ -1,0 +1,3 @@
+[submodule "bad_breakup_tick_algorithms"]
+	path = bad_breakup_tick_algorithms
+	url = https://github.com/SMCCoder/deer_tick_bad_breakup_algorithms.git
