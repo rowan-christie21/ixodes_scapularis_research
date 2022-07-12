@@ -1,8 +1,8 @@
-# *Ixodes scapularis* research
+# *Ixodes scapularis* abundance trends research
 
 ## Longer study length, standardized sampling techniques, and broader geographic scope leads to higher likelihood of detecting stable abundance patterns in long term black-legged tick studies
 
-Rowan Christie^1^\*, Kaitlin Stack Whitney^1^,^2^\*, Julia Perrone^3^, Christine A. Bahlai^4^ 
+Rowan Christie<sup>1*</sup>, Kaitlin Stack Whitney<sup>1, 2*</sup>, Julia Perrone<sup>3</sup>, Christine A. Bahlai<sup>4</sup> 
 
 1. Thomas H Gosnell School of Life Sciences, Rochester Institute of Technology, Rochester, NY, USA 
 2. Science, Technology & Society Department, Rochester Institute of Technology, Rochester, NY, USA 
