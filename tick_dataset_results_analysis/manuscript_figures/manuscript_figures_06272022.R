@@ -70,7 +70,7 @@ years_to_reach_stability_num <- ggplot(tick_dataset_results, aes(x = stability_t
 
 years_to_reach_stability_num
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_1_years_to_reach_stability_num_line_chart ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_1_years_to_reach_stability_num_line_chart ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 years_to_reach_stability_num
 dev.off()
 
@@ -125,7 +125,7 @@ years_to_reach_stability_length <- ggplot(tick_dataset_results, aes(x = data_ran
 
 years_to_reach_stability_length
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_2_years_to_reach_stability_length_line_chart ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_2_years_to_reach_stability_length_line_chart ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 years_to_reach_stability_length
 dev.off()
 
@@ -185,7 +185,7 @@ overall_pw_vs_pwbs <- ggplot(overall_pw_vs_pwbs_df, aes(x = reorder(overall_pw_v
 
 overall_pw_vs_pwbs
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_3_overall_pw_vs_pwbs ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_3_overall_pw_vs_pwbs ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 overall_pw_vs_pwbs
 dev.off()
 
@@ -258,7 +258,7 @@ stability_time_by_samp_tech <- ggplot(tick_dataset_results_drag_found, aes(x = s
 
 stability_time_by_samp_tech
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_4A_stability_time_by_samp_tech ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_4A_stability_time_by_samp_tech ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 stability_time_by_samp_tech
 dev.off()
 
@@ -289,7 +289,7 @@ proportion_wrong_before_stab_by_samp_tech <- ggplot(tick_dataset_results_drag_fo
 
 proportion_wrong_before_stab_by_samp_tech
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_4B_proportion_wrong_before_stab_by_samp_tech ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_4B_proportion_wrong_before_stab_by_samp_tech ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 proportion_wrong_before_stab_by_samp_tech
 dev.off()
 
@@ -308,7 +308,7 @@ figure4AB <- ggarrange(
 
 figure4AB
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_4AB ",Sys.Date(),".png", sep = ''), width = 600, height = 908)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_4AB ",Sys.Date(),".png", sep = ''), width = 2379, height = 3600, res = 300)
 figure4AB
 dev.off()
 
@@ -412,7 +412,7 @@ stability_time_by_life_stage <- ggplot(tick_dataset_results_ls, aes(x = life_sta
 
 stability_time_by_life_stage
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_5A_stability_time_by_life_stage ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_5A_stability_time_by_life_stage ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 stability_time_by_life_stage
 dev.off()
 
@@ -454,7 +454,7 @@ proportion_wrong_before_stab_by_life_stage <- ggplot(tick_dataset_results_ls, ae
 
 proportion_wrong_before_stab_by_life_stage
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_5B_proportion_wrong_before_stab_by_life_stage ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_5B_proportion_wrong_before_stab_by_life_stage ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 proportion_wrong_before_stab_by_life_stage
 dev.off()
 
@@ -473,7 +473,7 @@ figure5AB <- ggarrange(
 
 figure5AB
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_5AB ",Sys.Date(),".png", sep = ''), width = 600, height = 908)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_5AB ",Sys.Date(),".png", sep = ''), width = 2379, height = 3600, res = 300)
 figure5AB
 dev.off()
 
@@ -595,7 +595,7 @@ stability_time_by_geographic_scope <- ggplot(tick_dataset_results, aes(x = geogr
 
 stability_time_by_geographic_scope
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_6A_stability_time_by_geographic_scope ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_6A_stability_time_by_geographic_scope ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 stability_time_by_geographic_scope
 dev.off()
 
@@ -636,7 +636,7 @@ proportion_wrong_before_stab_by_geographic_scope <- ggplot(tick_dataset_results,
 
 proportion_wrong_before_stab_by_geographic_scope
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_6B_proportion_wrong_before_stab_by_geographic_scope ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_6B_proportion_wrong_before_stab_by_geographic_scope ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 proportion_wrong_before_stab_by_geographic_scope
 dev.off()
 
@@ -655,7 +655,7 @@ figure6AB <- ggarrange(
 
 figure6AB
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_6AB ",Sys.Date(),".png", sep = ''), width = 600, height = 908)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_6AB ",Sys.Date(),".png", sep = ''), width = 2379, height = 3600, res = 300)
 figure6AB
 dev.off()
 
@@ -726,7 +726,7 @@ stability_time_by_metric <- ggplot(tick_infection_data, aes(x = abundance_vs_inf
 
 stability_time_by_metric
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_7A_stability_time_by_metric ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_7A_stability_time_by_metric ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 stability_time_by_metric
 dev.off()
 
@@ -776,7 +776,7 @@ proportion_wrong_before_stab_by_metric <- ggplot(tick_infection_data, aes(x = ab
 
 proportion_wrong_before_stab_by_metric
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_7B_proportion_wrong_before_stab_by_metric ",Sys.Date(),".png", sep = ''), width = 600, height = 454)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_7B_proportion_wrong_before_stab_by_metric ",Sys.Date(),".png", sep = ''), width = 2379, height = 1800, res = 300)
 proportion_wrong_before_stab_by_metric
 dev.off()
 
@@ -795,6 +795,6 @@ figure7AB <- ggarrange(
 
 figure7AB
 
-png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_7AB ",Sys.Date(),".png", sep = ''), width = 600, height = 908)
+png(filename = paste("D:/Ixodes_scapularis_research_2019/tick_dataset_results_analysis/manuscript_figures/figure_7AB ",Sys.Date(),".png", sep = ''), width = 2379, height = 3600, res = 300)
 figure7AB
 dev.off()
