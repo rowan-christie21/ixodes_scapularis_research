@@ -369,6 +369,15 @@ median(nymphs$proportion_wrong_before_stability)
 median(larvae$proportion_wrong_before_stability)
 #0.07340067
 
+mean(adults$proportion_wrong_before_stability)
+#0.3493167
+
+mean(nymphs$proportion_wrong_before_stability)
+#0.1594759
+
+mean(larvae$proportion_wrong_before_stability)
+#0.2797712
+
 ###############
 # 5A life stage vs stability time
 ###############
